@@ -1,47 +1,61 @@
-<div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
-</div>
+# Hello! 👋 I am Kritik Sah
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+[![Linkedin Badge](https://img.shields.io/badge/-Kritik%20Sah-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/kritiksah/)](https://www.linkedin.com/in/kritiksah)
+[![Twitter Badge](https://img.shields.io/badge/-@KritikSah-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/sahkritik)](https://twitter.com/sahkritik)
+[![Discord Badge](https://img.shields.io/badge/-IT%20Rebeles-8B89CC?style=flat-square&logo=Discord&logoColor=white&link=https://discord.gg/wHxK4VGPbV)](https://discord.gg/wHxK4VGPbV)
+[![Instagram Badge](https://img.shields.io/badge/-kritik.sah-fbad50?style=flat-square&logo=Instagram&logoColor=black&link=https://www.instagram.com/kritik.sah/)](https://www.instagram.com/kritik.sah/)
+[![Youtube Badge](https://img.shields.io/badge/-IT%20Rebels-ff0000?style=flat-square&logo=Youtube&logoColor=white&link=https://www.youtube.com/itrebels)](https://www.youtube.com/itrebels)
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+<p align="left">
+  <img src="https://img.shields.io/github/followers/kritik-sah?color=1f222e&label=Followers&style=social" alt="kritik-sah" /> &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=kritik-sah&label=Profile%20views&color=0e75b6&style=flat" alt="kritik-sah" />
+</p>
 
-# Features
+# Profile
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+Greetings, my name is Kritik, and I am a 23-year-old frontend web developer. I possess a strong zeal for expanding my knowledge and skillset within the realm of web3 and blockchain technology.
+<br />
 
-# Getting Started Locally
+# Open-Source contributions / Badges
 
-1. Clone this repository to your local machine:
+| 2023 POAP.gallery<br/>Contributor                                                                                                                                             | 2023 ethereum.org<br/>Contributor                                                                                                                                             |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [<img src="https://assets.poap.xyz/gitpoap3a-2023-poapgallery-contributor-2022-logo-1671234027079.png" width="100" alt="kritik-sah" />](https://www.gitpoap.io/p/itrebel.eth) | [<img src="https://assets.poap.xyz/gitpoap3a-2023-ethereumorg-contributor-2022-logo-1671568487547.png" width="100" alt="kritik-sah" />](https://www.gitpoap.io/p/itrebel.eth) |
 
-   ```bash
-   git clone https://github.com/dillionverma/portfolio
-   ```
+# Open For
 
-2. Move to the cloned directory
+- [Work] Frontend lead, Solidity developer / Auditing, Dev. rel. Community management, Business Development roles in web3.
+- [Collabration] contact me on [twitter](https://twitter.com/sahkritik), would love to work with you😁.
+- [Sponsorship] We are on a mission to on-board 1000 devs in Web3, We definitely need support. so let us know what can we do for you and what can you offer, currently, we have around 7.1k subs on our youtube channel, where I post web development content, tutorials, and projects, and recently started teaching web3 development too.
 
-   ```bash
-   cd portfolio
-   ```
+[📄 Download my CV](https://github.com/kritik-sah/resume/raw/main/2023/resume.pdf)
 
-3. Install dependencies:
+## Some of my GitHub Stats
 
-   ```bash
-   pnpm install
-   ```
+<h3>Trophies 🏆:</h3>
+<p align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=kritik-sah&theme=onedark&margin-h=15&margin-w=15&column=4">
+    <img src="https://github-profile-trophy.vercel.app/?username=kritik-sah&margin-w=15&margin-h=15&column=8" alt="kritik-sah" />
+  </picture>
+</p>
 
-4. Start the local Server:
+<p align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=kritik-sah&show_icons=true&locale=en&theme=dark">
+    <img src="https://github-readme-stats.vercel.app/api?username=kritik-sah&show_icons=true&locale=en" alt="kritik-sah" />
+  </picture>&nbsp;&nbsp;&nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=kritik-sah&show_icons=true&locale=en&layout=compact&theme=dark">
+    <img align="top" src="https://github-readme-stats.vercel.app/api/top-langs?username=kritik-sah&show_icons=true&locale=en&layout=compact" alt="kritik-sah" />
+  </picture>
+</p>
 
-   ```bash
-   pnpm dev
-   ```
+<p align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=kritik-sah&theme=dark">
+    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kritik-sah&" alt="kritik-sah" />
+  </picture>
+</p>
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
-
-# License
-
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
+⭐️ From [kritik-sah](https://github.com/kritik-sah)

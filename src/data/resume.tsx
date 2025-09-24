@@ -2,67 +2,90 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  name: "Kritik Sah",
+  initials: "KS",
+  url: "https://cryptolancer.in",
+  location: "Mumbai, IN",
+  locationLink: "https://www.google.com/maps/place/Mumbai",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
-  summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "Full stack Dev | React.js & Next.js | making web accessable to all | Learning WEB3 | ITRebel.eth",
+  summary: `Self-taught frontend web developer with over 5+ years of experience in handling business logic in web. With my skillsets in Full stack web development in MERN stack including Next.js, I have good understanding of on page SEO and web accessibility “Making Web accessible to all”.
+I learnt web3 development , Basics of solidity and ERCs/EIPs , Which helped me in building Alloc8, Meowfi,
+DAOstruct and various projects from clients or experimental's
+`,
   avatarUrl: "/me.png",
   skills: [
+    "Problem Solving",
     "React",
     "Next.js",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Tailwind Css",
     "Typescript",
     "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Git",
+    "GitHub",
+    "Figma",
+    "Web3 EVM",
+    "Solidity",
+    "REST APIs",
+    "TailwindCSS",
+    "Solidity",
+    "Ethers.js",
+    "GraphQl queries",
+    "Uniswap SDK's",
+    "Wagmi.sh",
+    "Subgraph",
+    "Tanstack react querry",
+    "viem",
+    "Version Control",
     "Python",
-    "Go",
-    "Postgres",
-    "Docker",
-    "Kubernetes",
-    "Java",
-    "C++",
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/", icon: HomeIcon, label: "Home", external: false },
+    {
+      href: "/Kritik-sah-resume.pdf",
+      icon: NotebookIcon,
+      label: "Download Resume",
+      external: true,
+    },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "kritiksahco@gmail.com",
+    tel: "+917021245436",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/kritik-sah",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/kritiksah/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/itrebeleth",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "https://www.youtube.com/@ITRebels",
         icon: Icons.youtube,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:kritiksahco@gmail.com",
         icon: Icons.email,
 
         navbar: false,
@@ -72,234 +95,242 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Lumore (Rebel Ecosystem PVT. LTD.)",
+      href: "https://www.lumore.xyz/",
       badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
+      location: "Mumbai, IN",
+      title: "Founder & CTO",
+      logoUrl: "/lumore-logo.png",
+      start: "Mar 2025",
+      end: "Present",
+      description:
+        "Building lumore to solve the problem of urban loneliness. I Built a PWA app (MVP) of lumore now we have 55+ users, We are redefining how we connect. Registered my first company, Created amazing pitch deck for it. looking forward to raise funds, Till then growing organically In this process I learnt a lot about Tech, and Business side and believe me its not simple.Now Building Android & IOS App using react Native",
+    },
+    {
+      company: "alloc8.xyz",
+      badges: [],
+      href: "https://www.alloc8.xyz/",
+      location: "Delhi, IN",
+      title: "Founding Engineer",
+      logoUrl: "/alloc8.jpg",
+      start: "Feb 2024",
+      end: "May 2025",
+      description: `As a founding engineer, I built the complete frontend and Web3
+        integration for the MVPs of Alloc8 and MeowFi from scratch.
+        Alloc8 : A platform which use Safe protocol to create a credit
+        account on-chain, and using this credit account user can take 3x10x leverage and use it around any defi products Trade/Point
+        farming/Yield farming. Basically we were building an on-chain
+        credit layer.
+        MeowFi : An addon to Alloc8, Meowfi AI agent is trained to find the
+        best yield strategy on Uniswap, Camelot and Aerodrome (chain :
+        Base & Arbitrum) and my responsibility was to built a chat
+        interface . connect with these credit account, create and send this
+        transaction to deposit into this Liquidity Pools and manage this
+        position through dashboard
+        `,
+    },
+    {
+      company: "ZOWORLD (Zostel)",
+      href: "https://zo.xyz/",
+      badges: [],
+      location: "Banglore, IN",
+      title: "SDE - I",
+      logoUrl: "/zo.jpg",
+      start: "Nov 2023",
+      end: " Feb 2024",
+      description: `Built and maintained internal admin & housekeeping dashboards
+        using React, Next.js, and TypeScript.
+        Developed a React Native Android TV app from scratch and
+        delivered a working MVP.
+        Integrated IoT devices (e.g., door controls) via backend APIs and
+        enabled Web3 wallet support using smart contracts.
+        Collaborated with backend, design, and product teams to deliver
+        cross-platform features and UI/UX improvements.`,
+    },
+    {
+      company: "daostruct.xyz",
+      href: "https://www.daostruct.xyz/",
+      badges: [],
+      location: "Banglore, IN",
+      title: "Software Engineer",
+      logoUrl: "/dao.jpg",
+      start: "Mar 2023",
+      end: "Nov 2023",
+      description: `Led frontend development of the startup's MVP using React and Next.js, ensuring responsive UI and
+        clean architecture.
+        Improved on-page SEO and web performance for better visibility and faster load times.
+        Integrated Web3 features like wallet connections, smart contract interactions, Snapshot DAO's and
+        push protocol messaging.
+        Represented the team at Web3 events and meetups, expanding ecosystem understanding.
+        Took initiative in project management, shaping product direction as a founding team member.
+        `,
+    },
+    {
+      company: "Truemeds.in",
+      href: "https://www.truemeds.in/",
+      badges: [],
+      location: "Mumbai, IN",
+      title: "SDE I - FRONTEND",
+      logoUrl: "/truemeds.jpg",
+      start: "Nov 2022",
+      end: "Mar 2023",
+      description: `Contributed to the development of admin and management portals for a digital pharmacy platform.
+        Strengthened expertise in React.js and Redux, focusing on clean UI and maintainable state
+        management.
+        Collaborated with cross-functional teams to deliver features aligned with internal operational
+        workflows.
+      `,
+    },
+    {
+      company: "TONIC WORLDWIDE",
+      href: "https://www.tonicworldwide.com/",
+      badges: [],
+      location: "Mumbai, IN",
+      title: "JR. FRONTEND DEVELOPER",
+      logoUrl: "/tonic.jpg",
+      start: "Aug 2021",
       end: "Oct 2022",
-      description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
-    },
-    {
-      company: "Shopify",
-      badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
-      description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
-    },
-    {
-      company: "Nvidia",
-      href: "https://nvidia.com/",
-      badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
-      description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-    },
-    {
-      company: "Splunk",
-      href: "https://splunk.com",
-      badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    },
-    {
-      company: "Lime",
-      href: "https://li.me/",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-    },
-    {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
-      badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
-      description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+      description: `Delivered 100+ emailers and multiple web projects using HTML, CSS, Bootstrap, jQuery, and JavaScript.
+        Gained hands-on experience with blogging platforms, Photoshop, and phpMyAdmin.
+        Cleaned up legacy PHP/MySQL code while building confidence as a self-taught developer in a
+        professional environment.`,
     },
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
-    },
-    {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
+      school: "University of Mumbai",
+      href: "https://mu.ac.in/",
+      degree: "Bachelor of Science in Mathematics",
+      logoUrl: "/mu.jpg",
+      start: "2018",
       end: "2021",
-    },
-    {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
     },
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Alloc8",
+      href: "https://www.alloc8.xyz/",
+      dates: "Feb 2024 - May 2025",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "A platform which use Safe protocol to create a credit account on-chain, and using this credit account user can take 3x10x leverage and use it around any defi products Trade/Point farming/Yield farming. Basically we were building an on-chain credit layer.",
+
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "React.js",
+        "Ethers.js",
+        "wagmi.sh",
+        "viem",
+        "Uniswap SDK",
+        "Tanstack React Query",
         "TailwindCSS",
-        "Stripe",
         "Shadcn UI",
         "Magic UI",
+        "Safe Protocol",
+        "Solidity",
+        "REST API",
+        "Subgraph / GraphQl",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://www.alloc8.xyz/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      image: "/alloc8-screen.png",
+      video: "",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "MeowFi",
+      href: "https://app.alloc8.xyz/home",
+      dates: "Feb 2024 - May 2025",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        " An addon to Alloc8, Meowfi AI agent is trained to find the best yield strategy on Uniswap, Camelot and Aerodrome (chain : Base & Arbitrum) and my responsibility was to built a chat interface . connect with these credit account, create and send this transaction to deposit into this Liquidity Pools and manage this position through dashboard",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "React.js",
+        "Ethers.js",
+        "wagmi.sh",
+        "viem",
+        "Uniswap SDK",
+        "Tanstack React Query",
         "TailwindCSS",
-        "Stripe",
         "Shadcn UI",
         "Magic UI",
+        "Safe Protocol",
+        "Solidity",
+        "REST API",
+        "Subgraph / GraphQl",
       ],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://app.alloc8.xyz/home",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/magicuidesign/magicui",
+        //   icon: <Icons.github className="size-3" />,
+        // },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/meowfi-screen.png",
+      video: "",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
+      title: "TrueMeds Admin Portal",
+      href: "https://www.truemeds.in/",
       dates: "April 2023 - September 2023",
       active: true,
       description:
         "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
+      technologies: ["react.js", "Ant Design", "Rest API", "Chart.js"],
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://www.truemeds.in/",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/dillionverma/llm.report",
+        //   icon: <Icons.github className="size-3" />,
+        // },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/TAT-portal-orderfill-details.png",
+      video: "",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
+      title: "Lumore",
+      href: "https://lumore.xyz/",
       dates: "April 2023 - March 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Lumore connects you instantly with like-minded people via real-time, anonymous chat , no swipes, no noise. We blend the spontaneity of Omegle with the intentionality of Tinder/Bumble, powered by smart matchmaking and privacy-first design.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "Mongodb",
+        "Node.js",
         "TailwindCSS",
         "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Express.js",
+        "REST API",
+        "Digital Ocean",
       ],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://lumore.xyz/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      image: "/lumore-screen.jpg",
+      video: "",
     },
   ],
   hackathons: [

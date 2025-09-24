@@ -26,6 +26,8 @@ export default function Navbar() {
                     buttonVariants({ variant: "ghost", size: "icon" }),
                     "size-12"
                   )}
+                  target={item.external ? "_blank" : undefined}
+                  rel={item.external ? "noopener noreferrer" : undefined}
                 >
                   <item.icon className="size-4" />
                 </Link>
